@@ -1,3 +1,3 @@
 class Visitable:
-  def accept(Visitor):
-    pass
+  def accept(self, visitor):
+    raise NotImplementedError

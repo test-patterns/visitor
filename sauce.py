@@ -1,9 +1,11 @@
+from visitable import Visitable
+
 class Sauce(Visitable):
-    def Sauce(item):
-        self._price = item
+    def __init__(self, price):
+        self._price = price
 
     def getPrice(self):
         return self._price
 
-    def accept(self, Visitor):
-        return Visitor.visit(self)
+    def accept(self, visitor):
+        return visitor.visit(self)

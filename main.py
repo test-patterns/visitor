@@ -1,4 +1,7 @@
 from surcharge_visitor import Surcharge
+from sauce import Sauce
+from cheese import Cheese
+from dough import Dough
 
 def main():
     priceCalc = Surcharge()

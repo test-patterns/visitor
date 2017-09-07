@@ -1,9 +1,11 @@
+from visitable import Visitable
+
 class Dough(Visitable):
-    def Dough(item):
+    def __init__(self, item):
         self._price = item
 
-    def getPrice:
+    def getPrice(self):
         return self._price
 
-    def accept(self, Visitor):
-        return Visitor.visit(self)
+    def accept(self, visitor):
+        return visitor.visit(self)
