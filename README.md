@@ -1,10 +1,12 @@
 # visitor
 Sample problem featuring the visitor pattern.
 
-#Class problem
-There has been a surcharge in pizza ingredients (sauce, cheese & dough) this past month but now we are seeing the prices drop. Implement the visitor design pattern to show a 50% drop in ingredient prices from original prices.
+# Class problem
+There has been a surcharge in pizza ingredients (sauce, cheese & dough) this past month but now we are finally seeing the prices drop. Implement the visitor design pattern to show a 50% drop in ingredient prices from original prices.
 
-#Desired output
+# Desired output
+
+```
 Sauce item: Price with Surcharge
 2.36
 Cheese item: Price with Surcharge
@@ -18,3 +20,4 @@ Cheese item: Price with Price-drop
 1.50
 Dough item: Price with Price-drop
 2.0
+```
