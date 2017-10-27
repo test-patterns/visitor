@@ -1,4 +1,4 @@
-""" Sample problem featuring the command pattern. """
+""" Sample problem featuring the visitor pattern. """
 
 import unittest
 
