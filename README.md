@@ -10,6 +10,11 @@ python visitor
 
 Now we are finally seeing the prices drop. Implement the visitor design pattern to show a 50% drop in ingredient prices from original prices.
 
+### UML
+
+![alt text](https://yuml.me/e2038faa.png)
+[edit](http://yuml.me/edit/e2038faa)
+
 ### Previous output
 
 ```
