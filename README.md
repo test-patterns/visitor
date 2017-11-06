@@ -1,6 +1,8 @@
 # Visitor Pattern
 Sample problem featuring the visitor pattern.
 
+In the Visitor pattern, a visitor class changes the executing algorithm of an element class. The element object has to accept the visitor object so that visitor object handles the operation on the element object.
+
 ## Task 1 - Reduce prices
 Welcome to Pizza<sup>2</sup>! There has been a surcharge on pizza ingredients (sauce, cheese & dough) this past month. See for yourself by running the following command:
 
